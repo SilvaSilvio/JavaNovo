@@ -1,0 +1,6 @@
+package br.com.beuga.modelo.ArrayList;
+
+public class ArrayList {
+
+	ArrayList lista = new ArrayList();
+}

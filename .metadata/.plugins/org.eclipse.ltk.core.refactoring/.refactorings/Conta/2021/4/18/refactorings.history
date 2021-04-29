@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.beuga.modelo.ArrayList.ArrayList&apos; to &apos;ArrayList1&apos;&#x0A;- Original project: &apos;Conta&apos;&#x0A;- Original element: &apos;br.com.beuga.modelo.ArrayList.ArrayList&apos;&#x0A;- Renamed element: &apos;br.com.beuga.modelo.ArrayList.ArrayList1&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.com.beuga.modelo.ArrayList{ArrayList.java[ArrayList" matchStrategy="1" name="ArrayList1" qualified="false" references="true" similarDeclarations="false" stamp="1619399641610" textual="false" version="1.0"/>
+</session>

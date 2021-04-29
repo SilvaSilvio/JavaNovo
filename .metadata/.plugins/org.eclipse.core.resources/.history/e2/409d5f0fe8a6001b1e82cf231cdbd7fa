@@ -1,0 +1,15 @@
+package LinkList;
+
+import java.util.LinkedList;
+
+import br.com.beuga.modelo.Conta.Conta;
+
+public class LinkList {
+
+	LinkedList<Conta> linkLista = new LinkedList<>();
+	
+	Conta conta = new Conta(12,21,5000);
+	
+	linkLista.add()
+	
+}

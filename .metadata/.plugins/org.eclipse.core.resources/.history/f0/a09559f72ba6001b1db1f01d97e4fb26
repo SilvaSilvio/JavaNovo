@@ -1,0 +1,11 @@
+package Arrays;
+
+import java.util.List;
+
+public class ArrayList {
+
+	ArrayList lista = new ArrayList();
+
+	
+
+}

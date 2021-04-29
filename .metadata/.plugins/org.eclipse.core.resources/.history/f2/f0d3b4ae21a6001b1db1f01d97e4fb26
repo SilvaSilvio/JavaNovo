@@ -1,0 +1,9 @@
+package br.com.beuga.modelo.Conta;
+
+public class GuardadorDeConta {
+	private Conta[] referencias;
+
+	public GuardadorDeConta() {
+		this.referencias = new Conta[10];
+	}
+}

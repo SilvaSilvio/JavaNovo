@@ -1,0 +1,59 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+import br.com.beuga.modelo.Conta.Conta;
+import br.com.beuga.modelo.Conta.ContaCorrente;
+
+//Código omitido
+
+public class TesteExercicio {
+	public static void main(String[] args) {
+		Conta cc1 = new ContaCorrente(122, 122, 123);
+		Conta cc2 = new ContaCorrente(133, 133, 133);
+		Conta cc3 = new ContaCorrente(144, 144, 144);
+		Conta cc4 = new ContaCorrente(155, 155, 155);
+		
+		List<Conta> lista = new ArrayList<>();
+		
+		lista.add(cc1);
+
+		for (Conta conta : lista) {
+			System.out.println(conta);
+		}
+
+//        NumeroDaContaComparator comparator = new NumeroDaContaComparator();
+		lista.sort(null);
+
+//                Collections.sort(lista, new NumeroDaContaComparator());
+//                Collections.sort(list);
+//                Collections.reverse(lista);
+
+		System.out.println("---------");
+
+		for (Conta conta : lista) {
+			System.out.println(conta + ", " + conta.getPessoa().getNome());
+		}
+
+	}
+
+	class TitularDaContaComparator2 implements Comparator<Conta> {
+
+		@Override
+		public int compare(Conta c1, Conta c2) {
+
+			String nomeC1 = c1.getPessoa().getNome();
+			String nomeC2 = c2.getPessoa().getNome();
+			return nomeC1.compareTo(nomeC2);
+		}
+	}
+
+	class NumeroDaContaComparator2 implements Comparator<Conta> {
+
+		@Override
+		public int compare(Conta c1, Conta c2) {
+
+			return Integer.compare(c1.getNumero(), c2.getNumero());
+		}
+	}
+}

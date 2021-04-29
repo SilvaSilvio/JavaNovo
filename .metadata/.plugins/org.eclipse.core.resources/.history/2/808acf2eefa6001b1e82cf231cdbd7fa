@@ -1,0 +1,9 @@
+package LinkList;
+
+import br.com.beuga.modelo.Conta.ContaCorrente;
+
+public class Vetor {
+public static void main(String[] args) {
+	Conta conta = new ContaCorrente(0, 0, 0);
+}
+}

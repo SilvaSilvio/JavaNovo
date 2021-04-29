@@ -1,0 +1,6 @@
+package Arrays;
+
+public class ArrayList {
+
+		List<String> = new ArrayList<>();
+}

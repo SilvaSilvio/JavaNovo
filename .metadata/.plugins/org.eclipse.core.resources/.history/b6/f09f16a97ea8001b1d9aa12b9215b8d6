@@ -1,0 +1,15 @@
+package Comparador;
+
+public class PricipalTestePessoaComparacao {
+
+	public static void main(String[] args) {
+		
+		Pessoa pessoa1 = new Pessoa("Silvio", 25);
+		Pessoa pessoa2 = new Pessoa("João", 23);
+		Pessoa pessoa3 = new Pessoa("Ane", 23);
+		
+		
+
+	}
+
+}

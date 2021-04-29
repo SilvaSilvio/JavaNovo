@@ -1,0 +1,10 @@
+package Arrays;
+
+
+
+public class ArrayList {
+
+	ArrayList list = new ArrayList();
+	
+
+}

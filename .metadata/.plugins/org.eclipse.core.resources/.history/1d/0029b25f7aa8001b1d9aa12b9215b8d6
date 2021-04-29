@@ -1,0 +1,48 @@
+import java.util.Comparator;
+
+import br.com.beuga.modelo.Conta.Conta;
+
+//Código omitido
+
+public class Teste {
+
+//Código omitido
+
+        for (Conta conta : lista) {
+                System.out.println(conta);
+        }
+
+//        NumeroDaContaComparator comparator = new NumeroDaContaComparator();
+        lista.sort(null);
+
+//                Collections.sort(lista, new NumeroDaContaComparator());
+//                Collections.sort(list);
+//                Collections.reverse(lista);
+
+        System.out.println("---------");
+
+        for (Conta conta : lista) {
+                System.out.println(conta + ", " + conta.getTitular().getNome());
+        }
+
+}
+
+class TitularDaContaComparator2 implements Comparator<Conta> {
+
+        @Override
+        public int compare(Conta c1, Conta c2) {
+
+                String nomeC1 = c1.getTitular().getNome();
+                String nomeC2 = c2.getTitular().getNome();
+                return nomeC1.compareTo(nomeC2);
+        }
+}
+
+class NumeroDaContaComparator2 implements Comparator<Conta> {
+
+        @Override
+        public int compare(Conta c1, Conta c2) {
+
+               return Integer.compare(c1.getNumero(), c2.getNumero());
+            }
+}

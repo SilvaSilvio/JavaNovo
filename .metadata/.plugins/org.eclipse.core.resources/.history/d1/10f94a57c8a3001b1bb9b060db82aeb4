@@ -1,0 +1,19 @@
+package Arrays;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		int idade1 = 12;
+		int idade2 = 45;
+		int idade3 = 54;
+		
+		int[] idades = new int[5];
+		
+		idades[0] = 12;
+		idades[1] = 2;
+		
+		
+
+	}
+
+}

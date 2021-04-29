@@ -1,0 +1,17 @@
+package br.com.beuga.modelo.ArrayList;
+
+import br.com.beuga.modelo.Conta.ContaCorrente;
+
+public class ArrayList {
+	public static void main(String[] args) {
+
+		ArrayList lista = new ArrayList();
+
+		ContaCorrente cc = new ContaCorrente(012, 120, 200);
+		ContaCorrente cc1 = new ContaCorrente(013, 10, 500);
+
+		lista.add(cc);
+		lista.add(cc1);
+
+	}
+}
